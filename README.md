@@ -1,10 +1,10 @@
 # proyecto_III
 
-Descripción del problema: es necesario comprender y medir la manera en que las características del vehículo explican la diferencia de precios entre fabricantes y modelos cuando solo se cuenta con datos técnicos y de uso (fabricante, modelo, tamaño del motor, tipo de combustible, año de fabricación y kilometraje).  El estudio tiene que determinar qué factores influyen más marginalmente en el precio proyectado, calcular su significancia relativa y atrapar potenciales efectos no lineales, para crear un modelo de valuación que sea comprensible y que respalde decisiones de mezcla de producto y de pricing. Se deben dejar fuera explícitamente las métricas de crecimiento, ventas o cuotas debido a la ausencia de datos geográficos y temporales.
+Descripción del problema: El reto consiste en caracterizar y analizar estadísticamente las transacciones de venta de vehículos registradas en el dataset, explorando la distribución y relación de sus atributos principales (fabricante, modelo, tamaño de motor, tipo de combustible, año de fabricación, kilometraje y precio) con el objetivo de identificar tendencias, patrones y variaciones en el comportamiento del mercado de vehículos vendidos. El análisis se enfoca en resumir las características técnicas, de uso y de precio asociados a las ventas, facilitando una visión clara del perfil típico de las transacciones y la diversidad de la oferta observada en los datos, sin plantear inferencias causales ni predicciones.
 
-Pregunta de investigación específica y medible: ¿Qué factores técnicos y de uso del vehículo explican en mayor medida la variación del precio entre fabricantes y modelos, y cómo cambia el precio esperado en función de tamaño de motor, tipo de combustible, año de fabricación y kilometraje, controlando por fabricante/modelo?
+Pregunta de investigación específica y medible: ¿Cuáles son las principales características, tendencias y patrones presentes en el dataset respecto a sus atributos técnicos, uso y precio?
 
 Metricas de éxito:
--	Error de predicción del modelo de precio
--	Importancia y efecto de variables
--	Calidad de datos y reproducibilidad
+-	Obtener tablas y gráficos de distribuciones para cada variable relevante (histogramas, boxplots, tablas de frecuencia)
+-	Identificar los valores típicos (media, mediana, moda) y rangos intercuartiles en precio, kilometraje y año de fabricación
+-	Presentar relaciones exploratorias entre variables (correlaciones, cruces, agrupaciones), sin inferencia causal
